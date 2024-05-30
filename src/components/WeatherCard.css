@@ -1,0 +1,63 @@
+/* src/components/WeatherCard.css */
+
+.weather-card {
+    background: linear-gradient(135deg, #73a5ff, #5477f5);
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .weather-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .weather-card h2 {
+    margin-top: 0;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .weather-card p {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .weather-card .temp {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  .weather-card .weather-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Add media queries for responsiveness */
+  @media (max-width: 600px) {
+    .weather-card {
+      padding: 15px;
+      margin: 10px;
+    }
+  
+    .weather-card h2 {
+      font-size: 1.5em;
+    }
+  
+    .weather-card p {
+      font-size: 1em;
+    }
+  
+    .weather-card .temp {
+      font-size: 2em;
+    }
+  
+    .weather-card .weather-icon {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  
